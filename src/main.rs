@@ -2,6 +2,7 @@ mod cli;
 mod subcommand_impl;
 mod translation;
 mod config;
+mod utils;
 
 fn main() -> Result<(), String> {
     let cmd = cli::clap_cmd().get_matches();
